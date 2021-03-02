@@ -454,6 +454,8 @@ class ResourceManager {
       esp::scene::SceneManager* sceneManagerPtr,
       const std::vector<int>& activeSceneIDs);
 
+  static int mipLevelsToSkip;
+
  private:
   /**
    * @brief Load the requested mesh info into @ref meshInfo corresponding to
